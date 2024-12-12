@@ -1,0 +1,87 @@
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;  
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+}
+
+body{
+    background-color: black; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0;
+} 
+
+.form-container{ 
+    background-color: rgb(0, 0, 0); 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0px 0px 8.5px white;
+    text-align: center;
+} 
+
+.btn-purple{ 
+    background-color: rgb(34, 12, 158); 
+    color: rgb(255, 255, 255); 
+    box-shadow: 0px 0px 2px white;
+}
+
+.container-formulario{
+    width: 250px;
+    height: 80vh;
+    background: linear-gradient(0deg,#ffdb58,#0047ab);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(167, 211, 8);
+}
+
+.formulario{
+    max-width: 200px;
+    height: 200px;
+    color: black;
+    font-weight: 700;
+}
+
+.container-cadastro{
+    width: 100%;
+    height: 100vh;
+}
+
+.oculta{
+    display: none;
+}
+
+.botao{
+    width: 90px;
+    height: 50px;
+    background: linear-gradient(20deg,#0004fd,#000000);
+    border-radius: 10px;
+    box-shadow: none;
+    color: azure;
+    font-weight: 400;
+    margin: 5px;
+}
+.botao:hover{
+    width: 90px;
+    height: 50px;
+    background: linear-gradient(180deg,#0047ab,#000000);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white;
+}
+
+#camporesposta{
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 0px 10px white;
+}
+.resp{
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+/*=========================================================================================================================================*/
+
+
